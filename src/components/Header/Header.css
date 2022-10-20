@@ -1,0 +1,12 @@
+.navbar{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    padding-inline: 50px;
+    padding-block: 20px;
+
+    color: white;
+    font-size: larger;
+}

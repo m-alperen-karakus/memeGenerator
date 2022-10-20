@@ -1,0 +1,39 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 50px;
+    padding-block: 25px;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+
+    margin: 25px 0px;
+    
+}
+.input{
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    padding-block: 15px;
+    width: 50%;
+    padding-inline: 10px;
+}
+button{
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: white;
+    padding-block: 10px;
+    font-weight: 700;
+    font-size: larger;
+}
+.hero > img{
+    border-radius: 2px;
+    margin: 50px 0px;
+    transform: scale(1);
+}
