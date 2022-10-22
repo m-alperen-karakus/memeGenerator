@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Hero.css"
-import dummyImg from "../../assets/dummyImg.jpg"
 import * as memeService from "../../services/memeService";
 
 export default function Hero(){
