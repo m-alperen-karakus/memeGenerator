@@ -1,24 +1,23 @@
 .hero{
-    display: flex;
-    flex-direction: column;
+    display:flex ;
+    flex-direction: row;
     padding-inline: 50px;
     padding-block: 25px;
+    gap: 60px;
+    justify-content: space-around;
 }
 .inputs{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 50px;
-    width: 100%;
-
     margin: 25px 0px;
-    
+    justify-content: space-evenly;
+    width: 50%;
 }
 .input{
     border: 1px solid #D5D4D8;
     border-radius: 5px;
     padding-block: 15px;
-    width: 50%;
     padding-inline: 10px;
 }
 button{
@@ -31,9 +30,18 @@ button{
     padding-block: 10px;
     font-weight: 700;
     font-size: larger;
+    width: 40%;
 }
 .hero > img{
     border-radius: 2px;
-    margin: 50px 0px;
-    transform: scale(1);
+    width: 50%;
+    max-width: 400px;
+    padding-block: 0px !important;
+    border: 3px solid #d5d4d836 ;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
